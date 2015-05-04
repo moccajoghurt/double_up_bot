@@ -1,0 +1,2 @@
+@ECHO OFF
+cl.exe /EHsc %1 %2 %3 /IC:\opencv\build\include /IC:\tesseract\include /IC:\tesseract\leptonica\include /link /LIBPATH:C:\tesseract\leptonica\lib /LIBPATH:C:\tesseract\lib /LIBPATH:C:\opencv2411\build\x86\vc11\staticlib opencv_core2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib libjasper.lib IlmImf.lib libtiff.lib libjpeg.lib libpng.lib zlib.lib Gdi32.lib User32.lib liblept168.lib libtesseract302.lib advapi32.lib
